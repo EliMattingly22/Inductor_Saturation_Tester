@@ -1,0 +1,44 @@
+* C:\Users\elima\Dropbox\KiCAD Projects\Inductor_Saturation_Tester\Saturation_Tester.asc
+R1 N003 0 1k
+V1 Start 0 PULSE(0 5 1m 1n 1n 1m)
+Q1 V+ N003 N008 0 2N3904
+Q2 N008 N003 0 0 2N3906
+V2 V+ 0 5
+M1 N005 N008 N015 N015 Si7336ADP
+L1 N004 N005 10m Ipk=10 Rser=0.0226 flux=10m*5*tanh(x*(1/5))
+Q3 N001 N003 0 0 2N3904
+R2 V+ N001 1k
+Q4 V+ N001 N002 0 2N3904
+Q5 N002 N001 0 0 2N3906
+M2 N004 N002 V+ V+ FDR840P
+XU1 N011 N016 N010 opamp Aol=100K GBW=10Meg
+R3 N015 0 10m
+V3 N016 0 50m
+R4 N015 N011 10k
+R5 N011 N010 10Meg
+R6 N010 ILim 1k
+D1 N005 V+ 1N5817
+D2 0 N004 1N5817
+XU2 0 N009 N006 ILim N012 0 NC_01 V+Log NE555
+C3 N012 0 10n
+C4 N014 Start 1u
+D3 N014 N013 1N5817
+R8 N013 0 1k
+A1 N006 Start 0 0 0 N007 N003 0 OR Vhigh = 5
+R9 N006 0 1k
+V4 V+Log 0 5
+Q6 N009 N013 0 0 2N3904
+R10 V+Log N009 1k
+.model D D
+.lib C:\Users\elima\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\elima\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\elima\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.mos
+.tran 11m
+.lib opamp.sub
+.lib NE555.sub
+.backanno
+.end

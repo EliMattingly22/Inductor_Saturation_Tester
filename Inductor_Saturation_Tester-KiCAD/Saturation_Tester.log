@@ -1,0 +1,133 @@
+Circuit: * C:\Users\elima\Dropbox\KiCAD Projects\Inductor_Saturation_Tester\Saturation_Tester.asc
+
+WARNING: Less than two connections to node NC_01.  This node is used by S:U2:1.
+WARNING: Less than two connections to node N007.  This node is used by A1.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 0.000850706
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+Gmin = 0.000835985
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+vernier = 0.25
+Source Step = 60.9168%
+Source Step = 60.9464%
+Source Step = 60.976%
+Source Step = 61.0056%
+Source Step = 61.0352%
+Source Step = 61.0647%
+vernier = 0.00146484
+Source Step = 61.1003%
+Source Step = 61.1446%
+Source Step = 61.189%
+Source Step = 61.2334%
+Source Step = 61.2778%
+vernier = 0.00219727
+Source Step = 61.3289%
+Source Step = 61.3954%
+Source Step = 61.462%
+Source Step = 61.5286%
+Source Step = 61.5952%
+vernier = 0.0032959
+Source Step = 61.6684%
+Source Step = 61.7683%
+Source Step = 61.8682%
+Source Step = 61.9681%
+Source Step = 62.0679%
+vernier = 0.00494385
+Source Step = 62.1728%
+Source Step = 62.3226%
+Source Step = 62.4724%
+Source Step = 62.6223%
+Source Step = 62.7721%
+Source Step = 62.9219%
+vernier = 0.00741577
+Source Step = 63.1466%
+Source Step = 63.3713%
+Source Step = 63.596%
+Source Step = 63.8208%
+Source Step = 64.0455%
+vernier = 0.0111237
+Source Step = 64.3713%
+Source Step = 64.7084%
+Source Step = 65.0455%
+Source Step = 65.3826%
+Source Step = 65.7197%
+vernier = 0.0166855
+Source Step = 66.1916%
+Source Step = 66.6972%
+Source Step = 67.2028%
+Source Step = 67.7084%
+Source Step = 68.214%
+vernier = 0.0250282
+Source Step = 68.8966%
+Source Step = 69.6551%
+Source Step = 70.4135%
+Source Step = 71.1719%
+Source Step = 71.9304%
+vernier = 0.0375423
+Source Step = 72.9163%
+Source Step = 74.054%
+Source Step = 75.1916%
+Source Step = 76.3293%
+Source Step = 77.4669%
+vernier = 0.0563135
+Source Step = 78.889%
+Source Step = 80.5954%
+Source Step = 82.3019%
+Source Step = 84.0084%
+Source Step = 85.7148%
+Source Step = 86.4854%
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source Step = 96.9815%
+Source Step = 97.0111%
+Source stepping failed
+
+Pseudo transient terminated at 102.99 s, solution accepted ready or not!
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u1:2)
+
+Date: Fri Dec 24 13:13:43 2021
+Total elapsed time: 1.261 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 17715
+traniter = 5189
+tranpoints = 1917
+accept = 1682
+rejected = 235
+matrix size = 63
+fillins = 47
+solver = Normal
+Matrix Compiler1: 6.14 KB object code size  1.3/0.6/[0.4]
+Matrix Compiler2: 5.67 KB object code size  0.8/1.0/[0.5]
+
