@@ -2350,6 +2350,12 @@
   )
 
   (symbol_instances
+    (path "/00000000-0000-0000-0000-00006261fb60/a948504b-e3f8-4902-b484-454a8947d6e1"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006261fb60/41c6292a-8455-429a-81f7-2970a5282ea1"
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000621d9e42"
       (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
     )
@@ -2512,11 +2518,11 @@
     (path "/00000000-0000-0000-0000-00006261fb60/9d2c79a5-3bfe-4c9c-beae-e0ba2ed9f255"
       (reference "#PWR0166") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00006261fb60/41c6292a-8455-429a-81f7-2970a5282ea1"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    (path "/00000000-0000-0000-0000-00006261fb60/ffc2c65a-6e86-44c2-8547-9da517f84f05"
+      (reference "C1") (unit 1) (value "100u") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm")
     )
-    (path "/00000000-0000-0000-0000-00006261fb60/a948504b-e3f8-4902-b484-454a8947d6e1"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    (path "/00000000-0000-0000-0000-00006261fb60/7e8bc345-1b4a-4c0a-87a7-c6ba6b377773"
+      (reference "C2") (unit 1) (value "100u") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm")
     )
     (path "/00000000-0000-0000-0000-00006261fb60/00000000-0000-0000-0000-000062628126"
       (reference "C3") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -2566,29 +2572,23 @@
     (path "/00000000-0000-0000-0000-00006261fb60/f1d28370-2fb4-4670-a25f-daaa0205f4cd"
       (reference "C18") (unit 1) (value "100u") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm")
     )
-    (path "/00000000-0000-0000-0000-00006261fb60/0e7a1b95-81a1-4130-83ea-f80c1bf1db29"
-      (reference "C?") (unit 1) (value "100u") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm")
-    )
     (path "/00000000-0000-0000-0000-00006261fb60/254aab0e-feea-42aa-92bf-72a5e84299b0"
-      (reference "C?") (unit 1) (value "100u") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm")
+      (reference "C19") (unit 1) (value "100u") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm")
     )
     (path "/00000000-0000-0000-0000-00006261fb60/37de48e8-f517-4825-8b50-26cc061bd601"
-      (reference "C?") (unit 1) (value "100u") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm")
-    )
-    (path "/00000000-0000-0000-0000-00006261fb60/7682de47-97b9-46c6-8513-0711c4641035"
-      (reference "C?") (unit 1) (value "100u") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm")
-    )
-    (path "/00000000-0000-0000-0000-00006261fb60/7e8bc345-1b4a-4c0a-87a7-c6ba6b377773"
-      (reference "C?") (unit 1) (value "100u") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm")
+      (reference "C20") (unit 1) (value "100u") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm")
     )
     (path "/00000000-0000-0000-0000-00006261fb60/aa87ef5a-4b6c-4fcc-a679-5fc0c8c4beda"
-      (reference "C?") (unit 1) (value "100u") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm")
+      (reference "C21") (unit 1) (value "100u") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm")
     )
     (path "/00000000-0000-0000-0000-00006261fb60/e41e87f4-0053-49de-b6c6-114d3e2b9f05"
-      (reference "C?") (unit 1) (value "100u") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm")
+      (reference "C22") (unit 1) (value "100u") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm")
     )
-    (path "/00000000-0000-0000-0000-00006261fb60/ffc2c65a-6e86-44c2-8547-9da517f84f05"
-      (reference "C?") (unit 1) (value "100u") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm")
+    (path "/00000000-0000-0000-0000-00006261fb60/7682de47-97b9-46c6-8513-0711c4641035"
+      (reference "C23") (unit 1) (value "100u") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm")
+    )
+    (path "/00000000-0000-0000-0000-00006261fb60/0e7a1b95-81a1-4130-83ea-f80c1bf1db29"
+      (reference "C24") (unit 1) (value "100u") (footprint "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm")
     )
     (path "/00000000-0000-0000-0000-00006261fb60/00000000-0000-0000-0000-00006264463d"
       (reference "D1") (unit 1) (value "D") (footprint "Diode_SMD:D_SMA")
@@ -2659,23 +2659,23 @@
     (path "/00000000-0000-0000-0000-00006224b7be"
       (reference "Q2") (unit 1) (value "DMP4015SK3") (footprint "Package_TO_SOT_SMD:TO-252-3_TabPin4")
     )
-    (path "/00000000-0000-0000-0000-00006227043c/00000000-0000-0000-0000-000062278db8"
-      (reference "Q3") (unit 1) (value "MMBT3904") (footprint "Package_TO_SOT_SMD:SOT-23")
+    (path "/00000000-0000-0000-0000-00006227043c/72074cd4-e874-494e-a2be-1baa2347f04f"
+      (reference "Q3") (unit 1) (value "DMN67D7L") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
-    (path "/00000000-0000-0000-0000-00006227043c/00000000-0000-0000-0000-000062271bec"
-      (reference "Q4") (unit 1) (value "MMBT3904") (footprint "Package_TO_SOT_SMD:SOT-23")
+    (path "/00000000-0000-0000-0000-00006227043c/f5ac3e38-b2da-4b8b-af3b-5e4281e16a0c"
+      (reference "Q4") (unit 1) (value "BSS84") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
-    (path "/00000000-0000-0000-0000-00006227043c/00000000-0000-0000-0000-00006227294a"
-      (reference "Q5") (unit 1) (value "MMBT3906") (footprint "Package_TO_SOT_SMD:SOT-23")
+    (path "/00000000-0000-0000-0000-00006227043c/638641b2-3b55-41e0-a1bd-bbbd1697c2e4"
+      (reference "Q5") (unit 1) (value "DMN67D7L") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
-    (path "/00000000-0000-0000-0000-00006227043c/00000000-0000-0000-0000-00006228165c"
-      (reference "Q6") (unit 1) (value "MMBT3904") (footprint "Package_TO_SOT_SMD:SOT-23")
+    (path "/00000000-0000-0000-0000-00006227043c/2dcf7165-5e53-4ef9-834f-504467dee571"
+      (reference "Q6") (unit 1) (value "DMN67D7L") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
-    (path "/00000000-0000-0000-0000-00006227043c/00000000-0000-0000-0000-000062283cc2"
-      (reference "Q7") (unit 1) (value "MMBT3904") (footprint "Package_TO_SOT_SMD:SOT-23")
+    (path "/00000000-0000-0000-0000-00006227043c/021e959c-aa18-46b1-bfa4-484554f85548"
+      (reference "Q7") (unit 1) (value "BSS84") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
-    (path "/00000000-0000-0000-0000-00006227043c/00000000-0000-0000-0000-000062283cc8"
-      (reference "Q8") (unit 1) (value "MMBT3906") (footprint "Package_TO_SOT_SMD:SOT-23")
+    (path "/00000000-0000-0000-0000-00006227043c/f475b91c-6c04-4dc7-8ae7-4580eb16af73"
+      (reference "Q8") (unit 1) (value "DMN67D7L") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/00000000-0000-0000-0000-00006218b65f"
       (reference "R5") (unit 1) (value "1k") (footprint "Resistor_SMD:R_1206_3216Metric")
